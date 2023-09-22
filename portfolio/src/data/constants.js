@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/vishaljadhav207",
   resume:
-    "https://drive.google.com/file/d/15vVwlmehUdspKOPHdq2HYjMSJLqDjxtK/view?usp=drive_link",
+    "https://drive.google.com/file/d/1VKPlMCe7ZRkpk9O8CrE6ZeiBXOnQp8FW/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-jadhav-609a3a222/",
   twitter: "https://twitter.com/vishalj2012?t=7VJMGrDy4r1DD0w-YUMeQA&s=08",
   insta: "https://www.instagram.com/vishal_patil207/",
