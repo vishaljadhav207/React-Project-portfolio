@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/vishaljadhav207",
   resume:
-    "https://drive.google.com/file/d/1VKPlMCe7ZRkpk9O8CrE6ZeiBXOnQp8FW/view?usp=sharing",
+    "https://drive.google.com/file/d/1Nwj_LlUEWv23Yr-B_aa9-r5BOaGJ80yM/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-jadhav-609a3a222/",
   twitter: "https://twitter.com/vishalj2012?t=7VJMGrDy4r1DD0w-YUMeQA&s=08",
   insta: "https://www.instagram.com/vishal_patil207/",
@@ -59,6 +59,10 @@ export const skills = [
         image: "https://nodejs.org/static/images/logo.svg",
       },
       {
+        name: "Express Js",
+        image: "https://imgs.search.brave.com/XSSEJlIfykUDD9miPKj9bgaD9-4sRbbbSLtQVblKi4k/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzY0L0V4/cHJlc3Nqcy5wbmcv/MjIwcHgtRXhwcmVz/c2pzLnBuZw",
+      },
+      {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
@@ -73,6 +77,10 @@ export const skills = [
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADCElEQVR4AWIAgfDYqZr+kQD2qkFLkCAG3geerbVt27Zt27Zt27aZ65rd12/nbNd7o+5MUpNUMr4591747d975Uc/8kAMxEJMHvzOK59tbP7MAzEFEmCDhV9xPHjlm31LnPafnoW9W3zhFx1/LoH/BCSVQ0lKJYweSPj/fAKahjF0fn5BZ+x4pRjy8wmER5cSsLa+8/1LIK8RTio6kfxQ1Ip4J82VNT0EDA7PcJtHUgEim1cKwSI/yux4KR9Md19+hAA2d/cO6SYuL4kODo6ptKKT242Ozb9jc3x8Sp3d4/RUJlCwqWvsp7dxdnZOo+MLpK4f/X4CGqy2l4LDS5qYXKTJqSXa2trjDqLiyun+az/a2T0gYG5+jaaml2l1bVtkA1+T00sErK5u0fjEAi0ubQi6AYZH594hIKrtJgt6cx1BgI6uMVLVjSLg/OKCpFXDsM9I+dP+/hEB8cnVdOeFHx0enhDgHZB3lV12pGbWEXDEsvVIMuAdAqLa3lwfGJzmBCJiyghY39hhgXyF/WeygXTK0gtYO6aSoWUCAcjkSwXeJRQWVXpF4OgDBEbHhdqi3iJdICNATn4zVdVekezrn+I2Dm4ZBJycnNET6UCKTawkYI2V5qb/iupuAhYW15ERMQF8zd61AIPCivhLCSnVV85Pz0hZO5LGmIiAguJWbpOZ20jA/MKaQLiuoZ+A3v5JbqOmH80FnpXb9K4GNAxiCACg8pGxOSagbUHhQHp2g6hLvPzzuBOUBmhpGxaeIV4A76Ocs3OrdMo+AJiaWebp5wS4AMWAalFrCItPQACkJJRCrkvkSysrWwRAZOgStO07rXx4TK3tI/SaT05OQCzA4ZFZ1qdRwiHF5v2dl77c+Il0gLCuohspcqLKnrEOMeqaxnHyBubxWMegQqd8dBLy4VJc1vFNo5ULcJ13yadHMdIGpV+w3vYLLvgmAjV1vcLXd/dOfNm/4Hv9Xl/IB8MPK0fQm422iIjCow4Y8I7JgHfNBrRzGhQ5UwPeQwa5BhQk9Ah2kF2w7jkAoivzGh/q5RMAAAAASUVORK5CYII=",
       },
+      {
+        name:"Socket.IO",
+        image:"https://imgs.search.brave.com/B5GHooo71q-rwZ4sLbtOfRCBw4YUpOP54AWxCnFiCYQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85Lzk2L1Nv/Y2tldC1pby5zdmcv/NTEycHgtU29ja2V0/LWlvLnN2Zy5wbmc",
+      }
     ],
   },
   {
@@ -81,7 +89,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://imgs.search.brave.com/CXSKzPkKpROjdtzvZcZHR6i7qKZmvOp37nlKajF8yco/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9lL2UwL0dp/dC1sb2dvLnN2Zy8y/MjBweC1HaXQtbG9n/by5zdmcucG5n",
       },
       {
         name: "GitHub",
@@ -98,6 +106,11 @@ export const skills = [
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://imgs.search.brave.com/Otaf1YYAHnOFvBczBuXbINBmzkEdJJDnKquDDpIF2KE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jb21t/dW5pdHkuY2hvY29s/YXRleS5vcmcvY29u/dGVudC9wYWNrYWdl/aW1hZ2VzL3Bvc3Rt/YW4uMTAuMjIuMC5w/bmc",
       },
       {
         name: "C++",

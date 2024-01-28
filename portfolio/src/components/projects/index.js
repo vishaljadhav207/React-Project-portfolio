@@ -4,16 +4,13 @@ import ProjectCard from "../cards/ProjectCard";
 import { projects } from "../../data/constants";
 
 const Container = styled.div`
-
-position: relative;
 display: flex;
-justify-content: space-between;
-align-items: center;
 flex-direction: column;
-width: 100%;
-max-width: 1350px;
-padding: 10px 0px 100px 0;
-gap: 12px;
+justify-content: center;
+position: relative;
+z-index: 1;
+align-items: center;
+padding: 0px 0px 60px 0px;
 @media (max-width: 960px) {
     flex-direction: column;
 }
@@ -21,15 +18,15 @@ gap: 12px;
 `;
 
 const Wrapper = styled.div`
-position: relative;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-width: 100%;
-max-width: 1350px;
-padding: 10px 0px 100px 0;
-gap: 12px;
+   position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 40px 0px 0px 0px;
+    gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;
 }
@@ -68,7 +65,7 @@ const CardContainer = styled.div`
 const Projects = () => {
   return (
     <Container id="projects">
-      <Wrapper>
+      <Wrapper >
         <Title>Projects</Title>
         <Desc>"Here are some of the projects I have worked on."</Desc>
         <CardContainer>
