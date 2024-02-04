@@ -74,7 +74,7 @@ const Projects = () => {
           ))}
         </CardContainer>
       </Wrapper>
-    </Container>
+    </Container>          
   );
 };
 

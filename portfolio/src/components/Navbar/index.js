@@ -149,20 +149,7 @@ const MobileMenu = styled.div`
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
 
-const MobileMenuLink = styled(LinkR)`
-  color: ${({ theme }) => theme.text_primary};
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-  :hover {
-    color: ${({ theme }) => theme.primary};
-  }
 
-  &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
-  }
-`;
 
 const MobileLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
@@ -212,6 +199,7 @@ const Navbar = () => {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github}>Github profile</GitHubButton>
@@ -226,6 +214,7 @@ const Navbar = () => {
             >
               About
             </MobileLink>
+
              <MobileLink
               href="#skills"
               onClick={() => {
@@ -234,14 +223,7 @@ const Navbar = () => {
             >
               Skills
             </MobileLink>
-            <MobileLink
-              href="#experience"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Experience
-            </MobileLink>
+
             <MobileLink
               href="#projects"
               onClick={() => {
@@ -250,6 +232,7 @@ const Navbar = () => {
             >
               Projects
             </MobileLink>
+
             <MobileLink
               href="#education"
               onClick={() => {
@@ -258,6 +241,17 @@ const Navbar = () => {
             >
               Education
             </MobileLink>
+
+            <MobileLink
+              href="#contact"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Contact
+            </MobileLink>
+
+            
 
           
 
