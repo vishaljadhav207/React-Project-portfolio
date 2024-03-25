@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/vishaljadhav207",
   resume:
-    "https://drive.google.com/file/d/1BTHTxXG7JszlByQNLNSYRHaxgZS-6nTt/view?usp=sharing",
+    "https://drive.google.com/file/d/169L5NchBi3xTVlCa6fXH8CCDBqCtVrrC/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-jadhav-609a3a222/",
   twitter: "https://twitter.com/vishalj2012?t=7VJMGrDy4r1DD0w-YUMeQA&s=08",
   insta: "https://www.instagram.com/vishal_patil207/",
@@ -40,6 +40,11 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
+        name: "TypeScript",
+        image:
+          "https://imgs.search.brave.com/-xi7TQt7guqgRWPZ8OT6_BGx32f7AG7yg1BEDk0jWxs/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGJiMGQzMzAw/ZjgwOTA1ZTE0Mzdl/OTFkZThjOWVkYzZm/NGY2M2RjODQ0NGU5/N2U2MTU1OTgxMjcx/MmZkM2ExYS93d3cu/dHlwZXNjcmlwdGxh/bmcub3JnLw",
+      },
+      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
@@ -48,6 +53,16 @@ export const skills = [
         name: "Chakra UI",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAP1BMVEVHcExTysVTycZsy9Byy9FwytFyzNGE1tVoys2n4eDZ8/Jgysv8/v5YychQycVSycZHyMI8yL44x7wwx7o0x7vTVANiAAAAFXRSTlMAF0uUzOr////////////C//+U/9EDm5HIAAABMElEQVR4AW3NCQKEIAgFUNAJy631/mcdoMK21wZ8U2jQ+V9H1P28Q3hDzyEFvanz+Irp4b4Ef/TyQzCOPjn7v1d0XH0I0vCN5/46N0NMR3Wc4vurFPKQzsbvB3CfLB9ybI0e4lOf5FYl5Eyp8QDYJWX5UFLTIbhUEt9Fc8o5B+13pTjwhaUiauB8qKVJxcNoXaXMyt0ILQ/5IpwbQa2liokeed1BPYSYTaSp1seCqSeVZF3f8grjJOq0mwP/Xy6DERauqw1KzPHsqlwLuOli1fzKAfK+srfmQ45czW20IcAiI74Z5WGV0ibTAgAokfZr5HyyVh4EtswHye8WELhps4ZXviEonNd1XufAb7n10kJz4bizW+yFA4PbaiQSur/BZX1YLLcl2zN+Qrev2RZ3if8Lnii4MfVtFwAAAABJRU5ErkJggg==",
+      },
+      {
+        name: "TailwindCSS",
+        image:
+          "https://imgs.search.brave.com/l7OxzTza4qsfM6bke2p9GA-eF6-b3ilamjHYHs6TKUQ/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODJmYTczY2Fi/MDNjOWMxNTVmZTRl/ODgzMDMyYTU0MGI2/MGYxZTFkNzhkMWZl/YmQ5OWNkN2E3Mzcx/NWUzY2VkYi90YWls/d2luZGNzcy5jb20v",
+      },
+      {
+        name: "Shadcn",
+        image:
+          "https://imgs.search.brave.com/ioVk5HE8DZOiUXpP1UKYFeQaTXH14EoNYQfbLYIoVV4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzg1NjY0ZWUw/Mzc2ZTlkM2FjNDg3/YzRlMzQzMWJhNDdi/MTI5NjMzOTE4Y2M2/Nzc4NTU4MDRiNzg4/MzkyNTlhNy91aS5z/aGFkY24uY29tLw",
       },
     ],
   },
@@ -74,14 +89,14 @@ export const skills = [
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
       {
-        name: "PHP",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADCElEQVR4AWIAgfDYqZr+kQD2qkFLkCAG3geerbVt27Zt27Zt27aZ65rd12/nbNd7o+5MUpNUMr4591747d975Uc/8kAMxEJMHvzOK59tbP7MAzEFEmCDhV9xPHjlm31LnPafnoW9W3zhFx1/LoH/BCSVQ0lKJYweSPj/fAKahjF0fn5BZ+x4pRjy8wmER5cSsLa+8/1LIK8RTio6kfxQ1Ip4J82VNT0EDA7PcJtHUgEim1cKwSI/yux4KR9Md19+hAA2d/cO6SYuL4kODo6ptKKT242Ozb9jc3x8Sp3d4/RUJlCwqWvsp7dxdnZOo+MLpK4f/X4CGqy2l4LDS5qYXKTJqSXa2trjDqLiyun+az/a2T0gYG5+jaaml2l1bVtkA1+T00sErK5u0fjEAi0ubQi6AYZH594hIKrtJgt6cx1BgI6uMVLVjSLg/OKCpFXDsM9I+dP+/hEB8cnVdOeFHx0enhDgHZB3lV12pGbWEXDEsvVIMuAdAqLa3lwfGJzmBCJiyghY39hhgXyF/WeygXTK0gtYO6aSoWUCAcjkSwXeJRQWVXpF4OgDBEbHhdqi3iJdICNATn4zVdVekezrn+I2Dm4ZBJycnNET6UCKTawkYI2V5qb/iupuAhYW15ERMQF8zd61AIPCivhLCSnVV85Pz0hZO5LGmIiAguJWbpOZ20jA/MKaQLiuoZ+A3v5JbqOmH80FnpXb9K4GNAxiCACg8pGxOSagbUHhQHp2g6hLvPzzuBOUBmhpGxaeIV4A76Ocs3OrdMo+AJiaWebp5wS4AMWAalFrCItPQACkJJRCrkvkSysrWwRAZOgStO07rXx4TK3tI/SaT05OQCzA4ZFZ1qdRwiHF5v2dl77c+Il0gLCuohspcqLKnrEOMeqaxnHyBubxWMegQqd8dBLy4VJc1vFNo5ULcJ13yadHMdIGpV+w3vYLLvgmAjV1vcLXd/dOfNm/4Hv9Xl/IB8MPK0fQm422iIjCow4Y8I7JgHfNBrRzGhQ5UwPeQwa5BhQk9Ah2kF2w7jkAoivzGh/q5RMAAAAASUVORK5CYII=",
-      },
-      {
         name: "MongoDB",
         image:
           "https://imgs.search.brave.com/cmcbWV6S-rcpMCgvM12RIfJDsprPB5W2qDQHDIGBprk/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZGY1MjYxZjhm/ZDJmMzEyMTllNDMz/MmZhZjhiNmRiMzI5/OTU4YzMzM2NmZTI3/NGM2NWIxYmRkMGYx/ODc5YTAzOC93d3cu/bW9uZ29kYi5jb20v",
+      },
+      {
+        name: "ConvexDB",
+        image:
+          "https://imgs.search.brave.com/FIKlnc0uaSs39f22nUmvnCgsTieFOxkj4RIo0N34KMQ/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMTk0YjJjY2M5/YWZmNDkxZDIyMWQ0/NmM5NWQzZGFjOGNi/YTRiMzJhMjkxN2Qz/MTdlNWIwMDZkNjkw/ODgzNDg1MC93d3cu/Y29udmV4LmRldi8",
       },
       {
         name: "Socket.IO",
@@ -113,6 +128,16 @@ export const skills = [
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "intellij IDEA",
+        image:
+          "https://imgs.search.brave.com/ut8ZGvXl0outpd77M2dGJQYSnMFbnkhIGSpZSSdqIFM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85LzljL0lu/dGVsbGlKX0lERUFf/SWNvbi5zdmcvMjIw/cHgtSW50ZWxsaUpf/SURFQV9JY29uLnN2/Zy5wbmc",
+      },
+      {
+        name: "Java",
+        image:
+          "https://imgs.search.brave.com/Tqd_qtomd38sm6_ZQgo_uYGdYZb0q9lBPapyBm_Rxr4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZWIzMzY0ZWZh/MTE5MTVhM2E3MTEy/M2QzMDAwMWFlNTM1/OWVkMmMyNjA0OWM3/Mjc2YTFjNTI5ODkz/ZDg0NDYxMi93d3cu/amF2YS5jb20v",
       },
       {
         name: "Postman",
@@ -170,6 +195,15 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    title: "Eraser Clone",
+    date: "Mar 2024 - Mar 2024",
+    description:
+      "Developed an Eraser Clone project using Next.js, TypeScript, and Tailwind CSS for a modern tech stack.",
+    image: `${process.env.PUBLIC_URL}/images/eraser.jpg`,
+    tags: ["MEAN", "shadcn","convexDB", "HyperUI"],
+    webapp: "https://eraser-clone-sooty.vercel.app/",
+  },
   {
     title: "Thread Clone",
     date: "Dec 2023 - Jan 2024",
