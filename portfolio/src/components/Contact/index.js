@@ -131,20 +131,36 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
+
+
 const Contact = () => {
   //hooks
   const [open, setOpen] = React.useState(false);
+  const [error, setError] = React.useState(false);
   const form = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();          //add your EmailJS credentials here
-    emailjs.sendForm('service_xz91u84', 'template_1ksotao', form.current, 'd92wR363Zk5LUBTb8')
-      .then((result) => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError(false);
+
+    const formData = new FormData(form.current);
+    formData.append("access_key", "0312793b-bba1-44e0-9144-d770a00c49c9"); // Replace with your Web3Forms access key
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+      const result = await response.json();
+      if (result.success) {
         setOpen(true);
         form.current.reset();
-      }, (error) => {
-        console.log(error.text);
-      });
+      } else {
+        setError(true);
+      }
+    } catch (err) {
+      setError(true);
+    }
   };
 
   return (
@@ -155,11 +171,12 @@ const Contact = () => {
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" /> {/* Replace with your key */}
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email" name="email" type="email" required />
+          <ContactInput placeholder="Your Name" name="name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
@@ -167,7 +184,13 @@ const Contact = () => {
           autoHideDuration={6000}
           onClose={() => setOpen(false)}
           message="Email sent successfully!"
-          severity="success"
+        />
+        <Snackbar
+          open={error}
+          autoHideDuration={6000}
+          onClose={() => setError(false)}
+          message="Failed to send email. Please try again."
+          severity="error"
         />
       </Wrapper>
     </Container>
@@ -175,3 +198,4 @@ const Contact = () => {
 };
 
 export default Contact;
+// ...existing code...
