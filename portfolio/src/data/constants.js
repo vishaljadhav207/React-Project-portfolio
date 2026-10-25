@@ -34,7 +34,7 @@ export const Bio = {
   phone: "+91 99604 39680",
   github: "https://github.com/vishaljadhav207",
   resume:
-    "https://drive.google.com/file/d/1clP_0redLwc9XVMQ8EMQaoCvLvnAK3GJ/view?usp=sharing",
+    "https://drive.google.com/file/d/1tJoS67bWHseAmzatjtnmmOH2r6qkQM1Y/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-jadhav-609a3a222/",
   twitter: "https://twitter.com/vishalj2012?t=7VJMGrDy4r1DD0w-YUMeQA&s=08",
   insta: "https://www.instagram.com/vishal_patil207/",
